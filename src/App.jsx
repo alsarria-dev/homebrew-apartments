@@ -1,16 +1,26 @@
+// Importing Modules
 import { useState } from "react";
 import { Route, Routes, useNavigate } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+
+// Importing Pages
+import ApartmentListing from "./pages/ApartmentListing";
+import ApartmentDetails from "./pages/ApartmentDetails";
+import ApartmentFavorites from "./pages/ApartmentFavorites";
+import AddApartmentPage from "./pages/AddApartmentPage";
+import AboutUs from "./pages/AboutUs";
+
+// Importing Components for main page
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import ApartmentListing from "./pages/ApartmentListing";
-import ApartmentFavorites from "./pages/ApartmentFavorites";
-import ApartmentDetails from "./pages/ApartmentDetails";
-import HomePage from "./pages/HomePage";
-import AddApartmentPage from "./pages/AddApartmentPage";
-import apartment_data from "./data/project_data.json";
-import "./App.css";
-import AboutUs from "./components/AboutUs";
 
+// Importing Styles
+import "./App.css";
+
+// Importing Data
+import apartment_data from "./data/project_data.json";
+
+// Main App function
 function App() {
   const [dataArray, setDataArray] = useState(apartment_data.results);
   const [allApartments, setAllApartments] = useState(apartment_data.results);
