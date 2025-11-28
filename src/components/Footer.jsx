@@ -1,10 +1,12 @@
-import "./Footer.css";
+// Importing Logos
 import instagramLogo from "../assets/images/instagram.svg";
 import facebookLogo from "../assets/images/facebook.svg";
 import linkedinLogo from "../assets/images/linkedin.svg";
 import youtubeLogo from "../assets/images/youtube.svg";
 import xLogo from "../assets/images/x.svg";
-import apartmentsLogo from "../assets/images/logoApartment.png";
+
+// Adding Styles
+import "./Footer.css";
 
 const date = new Date();
 

@@ -1,10 +1,10 @@
 .backgroundImage{
-background-image: url("../assets/images/madridView.webp");
+background-image: url("../assets/images/landscape.png");
 width: 100vw;
 height: 90vh;
-background-size: cover;
+background-size:cover;
 background-repeat: no-repeat;
-background-color: rgb(154, 154, 154);
+/* background-color: rgb(154, 154, 154); */
 background-blend-mode: multiply;
 display: flex;
 justify-content: center;
