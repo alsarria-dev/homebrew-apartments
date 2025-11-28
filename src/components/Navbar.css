@@ -4,13 +4,14 @@
 }
 
 .navbar{
+    height: 5vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: #fff;
     padding: 15px 7%;
-    position: fixed;
+    /* position: fixed; */
     z-index: 2;
     font-family: Arrow;
 }

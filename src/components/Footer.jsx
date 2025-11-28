@@ -14,7 +14,6 @@ function Footer() {
       <div className="footerLeft-container">
         <p className="footer-paragraph">© {date.getFullYear()}</p>
       </div>
-      <div className="footerMid-container">
         <div className="footerIconLogos-container">
           <a href="https://www.instagram.com/" target="__blank">
             <img
@@ -52,14 +51,6 @@ function Footer() {
             <img className="footer-logo xlogo" src={xLogo} alt="x logo" />
           </a>
         </div>
-        <div className="footerLogo-container">
-          <img
-            className="company-logo"
-            src={apartmentsLogo}
-            alt="company logo"
-          />
-        </div>
-      </div>
       <div className="footerRight-container">
         <p className="footer-paragraph left">Careers</p>
         <p className="footer-paragraph left">Contact Us</p>
