@@ -1,6 +1,4 @@
 import { Link } from "react-router-dom";
-import React from "react";
-import logo from "../assets/images/logoApartment.png";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -23,7 +21,7 @@ const Navbar = () => {
           <li>Add apartment</li>
         </Link>
         <Link to="/about">
-          <li>About us</li>
+          <li>About</li>
         </Link>
       </ul>
     </div>

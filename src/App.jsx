@@ -8,7 +8,7 @@ import ApartmentListing from "./pages/ApartmentListing";
 import ApartmentDetails from "./pages/ApartmentDetails";
 import ApartmentFavorites from "./pages/ApartmentFavorites";
 import AddApartmentPage from "./pages/AddApartmentPage";
-import AboutUs from "./pages/AboutUs";
+import About from "./pages/About";
 
 // Importing Components for main page
 import Footer from "./components/Footer";
@@ -74,7 +74,7 @@ function App() {
             />
           }
         ></Route>
-        <Route path="/about" element={<AboutUs />}></Route>
+        <Route path="/about" element={<About />}></Route>
       </Routes>
       <Footer />
     </>
