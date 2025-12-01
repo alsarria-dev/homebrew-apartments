@@ -1,5 +1,4 @@
 .backgroundImage {
-    background-image: url("../assets/images/landscape.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
@@ -8,6 +7,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-image: url("../assets/images/landscape-min.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 
