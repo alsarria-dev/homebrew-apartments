@@ -44,6 +44,13 @@
     width: 25%;
 }
 
+.footerIconLogos-container a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .footer-logo {
     width: 20px;
     height: 20px;

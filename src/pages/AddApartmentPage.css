@@ -12,15 +12,17 @@
     align-items: center;
     background-color: white;
     gap: 20px;
-    padding-top: 40px;
     min-height: 85vh;
+    background-image: url("../assets/images/background-image.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .form-column {
     display: flex;
     flex-direction: column;
     width: 25vw;
-    padding: 20px 20px 0px 20px;
+    padding: 0px 20px 0px 20px;
 
     label {
         font-family: Arrow;

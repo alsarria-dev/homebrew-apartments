@@ -3,6 +3,11 @@
     src: url("../assets/arrowFont.ttf");
 }
 
+@font-face {
+    font-family: 'EBGaramond';
+    src: url("../assets/EBGaramond-SemiBold.ttf");
+}
+
 .navbar {
     height: 5vh;
     width: 100%;
@@ -10,10 +15,15 @@
     align-items: center;
     justify-content: space-between;
     background: #fff;
-    /* padding: 15px 7%; */
-    /* position: fixed; */
     z-index: 2;
     font-family: Arrow;
+}
+
+.navbar .logo-title {
+    font-family: EBGaramond;
+    color: #3A2A1A;
+    font-size: 36px;
+    padding-left: 20px;
 }
 
 .logo {
