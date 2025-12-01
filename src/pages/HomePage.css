@@ -1,52 +1,51 @@
-.backgroundImage{
-background-image: url("../assets/images/landscape.png");
-width: 100vw;
-height: 90vh;
-background-size:cover;
-background-repeat: no-repeat;
-/* background-color: rgb(154, 154, 154); */
-background-blend-mode: multiply;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
+.backgroundImage {
+    background-image: url("../assets/images/landscape.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
 
-.backgroundImage .Title{
+.backgroundImage .Title {
     height: 10vh;
 }
 
-.Title{
+.Title {
     color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.mainTitle{
+.mainTitle {
     font-size: 50px;
 }
 
-.searchBox input{
+.searchBox input {
     display: flex;
     align-items: center;
     padding: 10px 20px;
-    background-color:white;
+    background-color: white;
     border-radius: 50px;
     border-top: none;
     border-bottom: none;
     width: 300px;
-    
+
 }
 
-.searchBox input:focus{
+.searchBox input:focus {
     outline: none;
 }
-.searchBox img{
+
+.searchBox img {
     width: 20px;
     cursor: pointer;
 }
 
-.searchbox input{
+.searchbox input {
     padding: 6px;
     background: transparent;
     border: 0;
@@ -57,9 +56,9 @@ flex-direction: column;
 
 }
 
-.perks{
+.perks {
     color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
